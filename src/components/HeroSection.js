@@ -16,7 +16,9 @@ const techStack = [
 const HeroSection = () => {
   const emojis = useMemo(() => {
     return Array.from({ length: 8 }, () => ({
-      emoji: ["💻", "⚛️", "🅰️", "🔥", "🐍"][Math.floor(Math.random() * 7)],
+      emoji: ["💻", "⚛️", "🅰️", "⚛️", "🐍", "🅰️"][
+        Math.floor(Math.random() * 7)
+      ],
       top: `${Math.random() * 90}%`,
       left: `${Math.random() * 90}%`,
     }));

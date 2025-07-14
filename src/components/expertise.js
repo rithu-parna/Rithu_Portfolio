@@ -162,10 +162,20 @@ const RealTimeCollabCard = () => {
             height: "469px",
             // maxHeight: 590,
             objectFit: "cover",
-            WebkitMaskImage:
-              "linear-gradient(to right, rgba(0,0,0,0.2), rgba(0,0,0,1))",
-            maskImage:
-              "linear-gradient(to right, rgba(0,0,0,0.2), rgba(0,0,0,1))",
+            WebkitMaskImage: {
+              xs: "linear-gradient(to right, rgba(0,0,0,0.2), rgba(0,0,0,1))",
+              sm: "linear-gradient(to right, rgba(0,0,0,0.2), rgba(0,0,0,1))",
+              md: "linear-gradient(to right, rgba(0,0,0,0.1), rgba(0,0,0,1))",
+              lg: "linear-gradient(to right, rgba(0,0,0,0.1), rgba(0,0,0,1))",
+              xl: "linear-gradient(to right, rgba(0,0,0,0.1), rgba(0,0,0,1))",
+            },
+            maskImage: {
+              xs: "linear-gradient(to right, rgba(0,0,0,0.2), rgba(0,0,0,1))",
+              sm: "linear-gradient(to right, rgba(0,0,0,0.2), rgba(0,0,0,1))",
+              md: "linear-gradient(to right, rgba(0,0,0,0.0), rgba(0,0,0,1))",
+              lg: "linear-gradient(to right, rgba(0,0,0,0.0), rgba(0,0,0,1))",
+              xl: "linear-gradient(to right, rgba(0,0,0,0.0), rgba(0,0,0,1))",
+            },
             WebkitMaskSize: "100% 100%",
             maskSize: "100% 100%",
             WebkitMaskRepeat: "no-repeat",
@@ -306,10 +316,20 @@ const RealTimeCollabCard = () => {
             height: "469px",
             // maxHeight: 590,
             objectFit: "cover",
-            WebkitMaskImage:
-              "linear-gradient(to right, rgba(0,0,0,0.2), rgba(0,0,0,1))",
-            maskImage:
-              "linear-gradient(to right, rgba(0,0,0,0.2), rgba(0,0,0,1))",
+            WebkitMaskImage: {
+              xs: "linear-gradient(to right, rgba(0,0,0,0.2), rgba(0,0,0,1))",
+              sm: "linear-gradient(to right, rgba(0,0,0,0.2), rgba(0,0,0,1))",
+              md: "linear-gradient(to right, rgba(0,0,0,0.1), rgba(0,0,0,1))",
+              lg: "linear-gradient(to right, rgba(0,0,0,0.1), rgba(0,0,0,1))",
+              xl: "linear-gradient(to right, rgba(0,0,0,0.1), rgba(0,0,0,1))",
+            },
+            maskImage: {
+              xs: "linear-gradient(to right, rgba(0,0,0,0.2), rgba(0,0,0,1))",
+              sm: "linear-gradient(to right, rgba(0,0,0,0.2), rgba(0,0,0,1))",
+              md: "linear-gradient(to right, rgba(0,0,0,0.0), rgba(0,0,0,1))",
+              lg: "linear-gradient(to right, rgba(0,0,0,0.0), rgba(0,0,0,1))",
+              xl: "linear-gradient(to right, rgba(0,0,0,0.0), rgba(0,0,0,1))",
+            },
             WebkitMaskSize: "100% 100%",
             maskSize: "100% 100%",
             WebkitMaskRepeat: "no-repeat",
@@ -448,10 +468,21 @@ const RealTimeCollabCard = () => {
             height: "469px",
             // maxHeight: 590,
             objectFit: "cover",
-            WebkitMaskImage:
-              "linear-gradient(to right, rgba(41, 41, 41, 0.2), rgb(146, 146, 146))",
-            maskImage:
-              "linear-gradient(to right, rgba(0,0,0,0.2), rgba(0,0,0,1))",
+            WebkitMaskImage: {
+              xs: "linear-gradient(to right, rgba(0,0,0,0.2), rgba(0,0,0,1))",
+              sm: "linear-gradient(to right, rgba(0,0,0,0.2), rgba(0,0,0,1))",
+              md: "linear-gradient(to right, rgba(0,0,0,0.1), rgba(0,0,0,1))",
+              lg: "linear-gradient(to right, rgba(0,0,0,0.1), rgba(0,0,0,1))",
+              xl: "linear-gradient(to right, rgba(0,0,0,0.1), rgba(0,0,0,1))",
+            },
+            maskImage: {
+              xs: "linear-gradient(to right, rgba(0,0,0,0.2), rgba(0,0,0,1))",
+              sm: "linear-gradient(to right, rgba(0,0,0,0.2), rgba(0,0,0,1))",
+              md: "linear-gradient(to right, rgba(0,0,0,0.0), rgba(0,0,0,1))",
+              lg: "linear-gradient(to right, rgba(0,0,0,0.0), rgba(0,0,0,1))",
+              xl: "linear-gradient(to right, rgba(0,0,0,0.0), rgba(0,0,0,1))",
+            },
+
             WebkitMaskSize: "100% 100%",
             maskSize: "100% 100%",
             WebkitMaskRepeat: "no-repeat",
