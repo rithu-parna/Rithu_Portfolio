@@ -44,7 +44,7 @@ const HeroSection = () => {
       <Stack direction="row" alignItems="center" spacing={1} mb={4}>
         <LocationOnIcon fontSize="small" sx={{ color: "#a0a0a0" }} />
         <Typography variant="body2" sx={{ color: "#a0a0a0" }}>
-          San Francisco, CA
+          Kozhikode, Kerala
         </Typography>
       </Stack>
 
