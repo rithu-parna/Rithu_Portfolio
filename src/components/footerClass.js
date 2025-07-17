@@ -33,14 +33,12 @@ const HeroSection = () => {
       }}
     >
       <Typography variant="h4" fontWeight="bold" gutterBottom>
-        Let's Build Something Amazing
+        Let’s Bring Your Vision to Life
       </Typography>
-
       <Typography variant="subtitle1" sx={{ color: "#a0a0a0", mb: 2 }}>
-        Looking for a developer who can create high-performance, interactive web
-        experiences?
+        Passionate Front-End Developer building seamless digital experiences
+        with modern web technologies.
       </Typography>
-
       <Stack direction="row" alignItems="center" spacing={1} mb={4}>
         <LocationOnIcon fontSize="small" sx={{ color: "#a0a0a0" }} />
         <Typography variant="body2" sx={{ color: "#a0a0a0" }}>

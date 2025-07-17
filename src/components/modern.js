@@ -5,12 +5,12 @@ import { FaBolt, FaWrench, FaRocket, FaLock } from "react-icons/fa";
 const ModernWebCapabilities = () => {
   const capabilityData = [
     {
-      title: "Responsive Web Development",
+      title: "Responsive Layouts",
       icon: "🖥️",
       features: ["Building layouts that adapt perfectly to all screen sizes"],
     },
     {
-      title: "Component-Based Architecture",
+      title: "Modular ",
       icon: "⚛️",
       features: [
         "Developing scalable UIs using React, Vue, or similar frameworks.",
@@ -18,31 +18,38 @@ const ModernWebCapabilities = () => {
       ],
     },
     {
-      title: "Performance Optimization",
+      title: "Type-Safe Code",
       icon: <FaBolt size={24} />,
       features: [
-        "Minimizing load times & ensuring smooth interactions",
+        "Improving page load times, rendering performance, and user experience by adhering to modern performance standards and tools.",
         // "WebRTC",
       ],
     },
     {
-      title: "Pixel-Perfect Implementation",
+      title: "Optimised Performance",
       icon: <FaWrench size={24} />,
       features: [
-        "Translating designs accurately into functional web pages.",
+        "Creating interfaces that are accessible and usable for everyone, following WCAG and ARIA guidelines.",
         // "Web Workers",
         // "Service Workers",
       ],
     },
     {
-      title: "Performance",
+      title: "MODERN Workflows",
       icon: <FaRocket size={24} />,
-      features: ["Code splitting", "Tree shaking", "Resource optimization"],
+      features: [
+        " Leveraging tools like Git, Webpack, CI/CD pipelines, and testing frameworks to deliver efficient and reliable workflows.",
+        //  "Tree shaking", "Resource optimization"
+      ],
     },
     {
-      title: "Security",
+      title: "Inclusive Design",
       icon: <FaLock size={24} />,
-      features: ["CSP", "CORS configuration", "Security headers"],
+      features: [
+        "Building robust, scalable applications with TypeScript and following best practices for code quality and maintainability.",
+        // "CORS configuration",
+        // "Security headers",
+      ],
     },
   ];
   return (
