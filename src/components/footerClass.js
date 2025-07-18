@@ -10,7 +10,7 @@ import { FaWhatsapp } from "react-icons/fa";
 const HeroSection = () => {
   const ResumeDownload = () => {
     const link = document.createElement("a");
-    link.href = "/Frontend Developer Rithuparna AC.pdf";
+    link.href = "/rithuparna_resume.pdf";
     link.download = "Frontend Developer Rithuparna_AC.pdf";
     document.body.appendChild(link);
     link.click();
