@@ -32,16 +32,31 @@ const HeroSection = () => {
         px: 2,
       }}
     >
-      <Typography variant="h4" fontWeight="bold" gutterBottom>
+      <Typography
+        variant="h4"
+        fontWeight="bold"
+        gutterBottom
+        SX={{ fontFamily: "Poppins, sans-serif" }}
+      >
         Let’s Bring Your Vision to Life
       </Typography>
-      <Typography variant="subtitle1" sx={{ color: "#a0a0a0", mb: 2 }}>
+      <Typography
+        variant="subtitle1"
+        sx={{
+          color: "#a0a0a0",
+          mb: 2,
+          fontFamily: "Poppins, sans-serif",
+        }}
+      >
         Passionate Front-End Developer building seamless digital experiences
         with modern web technologies.
       </Typography>
       <Stack direction="row" alignItems="center" spacing={1} mb={4}>
         <LocationOnIcon fontSize="small" sx={{ color: "#a0a0a0" }} />
-        <Typography variant="body2" sx={{ color: "#a0a0a0" }}>
+        <Typography
+          variant="body2"
+          sx={{ color: "#a0a0a0", fontFamily: "Poppins, sans-serif" }}
+        >
           Kozhikode, Kerala
         </Typography>
       </Stack>
@@ -51,6 +66,7 @@ const HeroSection = () => {
           variant="contained"
           startIcon={<EmailIcon />}
           sx={{
+            fontFamily: "Poppins, sans-serif",
             background: "linear-gradient(45deg, #4f46e5, #a855f7)",
             color: "#fff",
             px: 3,
@@ -83,6 +99,7 @@ const HeroSection = () => {
             borderRadius: 2,
             fontWeight: "bold",
             textTransform: "none",
+            fontFamily: "Poppins, sans-serif",
             "&:hover": {
               backgroundColor: "#333",
             },

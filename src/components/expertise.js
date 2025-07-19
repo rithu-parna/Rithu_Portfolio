@@ -19,7 +19,13 @@ const RealTimeCollabCard = () => {
         variant="h4"
         align="center"
         gutterBottom
-        sx={{ fontWeight: 600, color: "#fff", mt: 10, mb: 0 }}
+        sx={{
+          fontWeight: 600,
+          color: "#fff",
+          mt: 10,
+          mb: 0,
+          fontFamily: "Poppins, sans-serif",
+        }}
       >
         Live Projects
       </Typography>
@@ -44,14 +50,29 @@ const RealTimeCollabCard = () => {
       >
         {/* Left Section */}
         <Box sx={{ flex: 1 }}>
-          <Typography variant="h5" sx={{ fontWeight: 600 }}>
+          <Typography
+            variant="h5"
+            sx={{ fontWeight: 600, fontFamily: "Poppins, sans-serif" }}
+          >
             Supply Chain Management (CRM)
           </Typography>
-          <Typography sx={{ mt: 1, color: "#9ca3af" }}>
+          <Typography
+            sx={{
+              mt: 1,
+              color: "#9ca3af",
+              fontFamily: "Poppins, sans-serif",
+            }}
+          >
             Designed a CRM system from scratch for supply chain management.{" "}
           </Typography>
 
-          <Typography sx={{ mt: 3, fontWeight: 600 }}>
+          <Typography
+            sx={{
+              mt: 3,
+              fontWeight: 600,
+              fontFamily: "Poppins, sans-serif",
+            }}
+          >
             Performance Metrics
           </Typography>
 
@@ -63,7 +84,13 @@ const RealTimeCollabCard = () => {
               >
                 95
               </Typography>
-              <Typography sx={{ fontSize: "0.875rem", color: "#9ca3af" }}>
+              <Typography
+                sx={{
+                  fontSize: "0.875rem",
+                  color: "#9ca3af",
+                  fontFamily: "Poppins, sans-serif",
+                }}
+              >
                 Performance
               </Typography>
             </Box>
@@ -71,11 +98,21 @@ const RealTimeCollabCard = () => {
             <Box>
               <Typography
                 variant="h6"
-                sx={{ color: "rgb(96 165 250 / 1)", fontWeight: 600 }}
+                sx={{
+                  color: "rgb(96 165 250 / 1)",
+                  fontWeight: 600,
+                  fontFamily: "Poppins, sans-serif",
+                }}
               >
                 98
               </Typography>
-              <Typography sx={{ fontSize: "0.875rem", color: "#9ca3af" }}>
+              <Typography
+                sx={{
+                  fontSize: "0.875rem",
+                  color: "#9ca3af",
+                  fontFamily: "Poppins, sans-serif",
+                }}
+              >
                 Accessibility
               </Typography>
             </Box>
@@ -87,13 +124,25 @@ const RealTimeCollabCard = () => {
               >
                 100
               </Typography>
-              <Typography sx={{ fontSize: "0.875rem", color: "#9ca3af" }}>
+              <Typography
+                sx={{
+                  fontSize: "0.875rem",
+                  color: "#9ca3af",
+                  fontFamily: "Poppins, sans-serif",
+                }}
+              >
                 Seo
               </Typography>
             </Box>
           </Box>
 
-          <Typography sx={{ mt: 4, fontWeight: 600 }}>
+          <Typography
+            sx={{
+              mt: 4,
+              fontWeight: 600,
+              fontFamily: "Poppins, sans-serif",
+            }}
+          >
             Technical Implementation
           </Typography>
 
@@ -104,7 +153,10 @@ const RealTimeCollabCard = () => {
               </ListItemIcon>
               <ListItemText
                 primary="Built a support module with integrated ticketing system."
-                sx={{ color: "#d1d5db" }}
+                sx={{
+                  color: "#d1d5db",
+                  fontFamily: "Poppins, sans-serif",
+                }}
               />
             </ListItem>
             <ListItem>
@@ -113,7 +165,10 @@ const RealTimeCollabCard = () => {
               </ListItemIcon>
               <ListItemText
                 primary="Built service booking tabs for approvals and data entry."
-                sx={{ color: "#d1d5db" }}
+                sx={{
+                  color: "#d1d5db",
+                  fontFamily: "Poppins, sans-serif",
+                }}
               />
             </ListItem>
             <ListItem>
@@ -122,7 +177,10 @@ const RealTimeCollabCard = () => {
               </ListItemIcon>
               <ListItemText
                 primary="Built billing modules for transactions and invoicing."
-                sx={{ color: "#d1d5db" }}
+                sx={{
+                  color: "#d1d5db",
+                  fontFamily: "Poppins, sans-serif",
+                }}
               />
             </ListItem>
             <ListItem>
@@ -131,16 +189,10 @@ const RealTimeCollabCard = () => {
               </ListItemIcon>
               <ListItemText
                 primary="Handled user create, update, suspend, and reset."
-                sx={{ color: "#d1d5db" }}
-              />
-            </ListItem>
-            <ListItem>
-              <ListItemIcon>
-                <ArrowRightIcon sx={{ color: "#aaffaa" }} />
-              </ListItemIcon>
-              <ListItemText
-                primary="Developed receivables and bulk payment module."
-                sx={{ color: "#d1d5db" }}
+                sx={{
+                  color: "#d1d5db",
+                  fontFamily: "Poppins, sans-serif",
+                }}
               />
             </ListItem>
           </List>
@@ -203,15 +255,22 @@ const RealTimeCollabCard = () => {
       >
         {/* Left Section */}
         <Box sx={{ flex: 1 }}>
-          <Typography variant="h5" sx={{ fontWeight: 600, mt: 5 }}>
+          <Typography
+            variant="h5"
+            sx={{ fontWeight: 600, mt: 5, fontFamily: "Poppins, sans-serif" }}
+          >
             Wateron
           </Typography>
-          <Typography sx={{ mt: 1, color: "#9ca3af" }}>
+          <Typography
+            sx={{ mt: 1, color: "#9ca3af", fontFamily: "Poppins, sans-serif" }}
+          >
             Designed forntend for admin billing to generate flat-wise water
             bills.
           </Typography>
 
-          <Typography sx={{ mt: 3, fontWeight: 600 }}>
+          <Typography
+            sx={{ mt: 3, fontWeight: 600, fontFamily: "Poppins, sans-serif" }}
+          >
             Performance Metrics
           </Typography>
 
@@ -223,7 +282,13 @@ const RealTimeCollabCard = () => {
               >
                 95
               </Typography>
-              <Typography sx={{ fontSize: "0.875rem", color: "#9ca3af" }}>
+              <Typography
+                sx={{
+                  fontSize: "0.875rem",
+                  color: "#9ca3af",
+                  fontFamily: "Poppins, sans-serif",
+                }}
+              >
                 Performance
               </Typography>
             </Box>
@@ -231,11 +296,21 @@ const RealTimeCollabCard = () => {
             <Box>
               <Typography
                 variant="h6"
-                sx={{ color: "rgb(96 165 250 / 1)", fontWeight: 600 }}
+                sx={{
+                  color: "rgb(96 165 250 / 1)",
+                  fontWeight: 600,
+                  fontFamily: "Poppins, sans-serif",
+                }}
               >
                 98
               </Typography>
-              <Typography sx={{ fontSize: "0.875rem", color: "#9ca3af" }}>
+              <Typography
+                sx={{
+                  fontSize: "0.875rem",
+                  color: "#9ca3af",
+                  fontFamily: "Poppins, sans-serif",
+                }}
+              >
                 Accessibility
               </Typography>
             </Box>
@@ -243,17 +318,29 @@ const RealTimeCollabCard = () => {
             <Box>
               <Typography
                 variant="h6"
-                sx={{ color: "rgb(96 165 250 / 1)", fontWeight: 600 }}
+                sx={{
+                  color: "rgb(96 165 250 / 1)",
+                  fontWeight: 600,
+                  fontFamily: "Poppins, sans-serif",
+                }}
               >
                 100
               </Typography>
-              <Typography sx={{ fontSize: "0.875rem", color: "#9ca3af" }}>
+              <Typography
+                sx={{
+                  fontSize: "0.875rem",
+                  color: "#9ca3af",
+                  fontFamily: "Poppins, sans-serif",
+                }}
+              >
                 Seo
               </Typography>
             </Box>
           </Box>
 
-          <Typography sx={{ mt: 4, fontWeight: 600 }}>
+          <Typography
+            sx={{ mt: 4, fontWeight: 600, fontFamily: "Poppins, sans-serif" }}
+          >
             Technical Implementation
           </Typography>
 
@@ -265,7 +352,10 @@ const RealTimeCollabCard = () => {
               <ListItemText
                 primary="UI to monitor apartment-wise water usage & status
 "
-                sx={{ color: "#d1d5db" }}
+                sx={{
+                  color: "#d1d5db",
+                  fontFamily: "Poppins, sans-serif",
+                }}
               />
             </ListItem>
             <ListItem>
@@ -275,7 +365,10 @@ const RealTimeCollabCard = () => {
               <ListItemText
                 primary="Valve control interface to manage water supply per flat
 "
-                sx={{ color: "#d1d5db" }}
+                sx={{
+                  color: "#d1d5db",
+                  fontFamily: "Poppins, sans-serif",
+                }}
               />
             </ListItem>
             <ListItem>
@@ -285,7 +378,10 @@ const RealTimeCollabCard = () => {
               <ListItemText
                 primary="Forms&tables to view & edit apartment data.
 "
-                sx={{ color: "#d1d5db" }}
+                sx={{
+                  color: "#d1d5db",
+                  fontFamily: "Poppins, sans-serif",
+                }}
               />
             </ListItem>
             <ListItem>
@@ -294,7 +390,10 @@ const RealTimeCollabCard = () => {
               </ListItemIcon>
               <ListItemText
                 primary="Billing screen to generate water bills based on usage."
-                sx={{ color: "#d1d5db" }}
+                sx={{
+                  color: "#d1d5db",
+                  fontFamily: "Poppins, sans-serif",
+                }}
               />
             </ListItem>
           </List>
@@ -358,15 +457,22 @@ const RealTimeCollabCard = () => {
       >
         {/* Left Section */}
         <Box sx={{ flex: 1 }}>
-          <Typography variant="h5" sx={{ fontWeight: 600 }}>
+          <Typography
+            variant="h5"
+            sx={{ fontWeight: 600, fontFamily: "Poppins, sans-serif" }}
+          >
             Savitha Jewellery Website
           </Typography>
-          <Typography sx={{ mt: 1, color: "#9ca3af" }}>
+          <Typography
+            sx={{ mt: 1, color: "#9ca3af", fontFamily: "Poppins, sans-serif" }}
+          >
             Complete design of a modern showcase website for a luxury jewelry
             brand.{" "}
           </Typography>
 
-          <Typography sx={{ mt: 3, fontWeight: 600 }}>
+          <Typography
+            sx={{ mt: 3, fontWeight: 600, fontFamily: "Poppins, sans-serif" }}
+          >
             Performance Metrics
           </Typography>
 
@@ -378,7 +484,13 @@ const RealTimeCollabCard = () => {
               >
                 95
               </Typography>
-              <Typography sx={{ fontSize: "0.875rem", color: "#9ca3af" }}>
+              <Typography
+                sx={{
+                  fontSize: "0.875rem",
+                  color: "#9ca3af",
+                  fontFamily: "Poppins, sans-serif",
+                }}
+              >
                 Performance
               </Typography>
             </Box>
@@ -390,7 +502,13 @@ const RealTimeCollabCard = () => {
               >
                 98
               </Typography>
-              <Typography sx={{ fontSize: "0.875rem", color: "#9ca3af" }}>
+              <Typography
+                sx={{
+                  fontSize: "0.875rem",
+                  color: "#9ca3af",
+                  fontFamily: "Poppins, sans-serif",
+                }}
+              >
                 Accessibility
               </Typography>
             </Box>
@@ -402,7 +520,13 @@ const RealTimeCollabCard = () => {
               >
                 100
               </Typography>
-              <Typography sx={{ fontSize: "0.875rem", color: "#9ca3af" }}>
+              <Typography
+                sx={{
+                  fontSize: "0.875rem",
+                  color: "#9ca3af",
+                  fontFamily: "Poppins, sans-serif",
+                }}
+              >
                 Seo
               </Typography>
             </Box>
@@ -419,7 +543,10 @@ const RealTimeCollabCard = () => {
               </ListItemIcon>
               <ListItemText
                 primary="Designed the entire UI from scratch."
-                sx={{ color: "#d1d5db" }}
+                sx={{
+                  color: "#d1d5db",
+                  fontFamily: "Poppins, sans-serif",
+                }}
               />
             </ListItem>
             <ListItem>
@@ -428,7 +555,10 @@ const RealTimeCollabCard = () => {
               </ListItemIcon>
               <ListItemText
                 primary="Created a premium, elegant showcase for jewelry collections."
-                sx={{ color: "#d1d5db" }}
+                sx={{
+                  color: "#d1d5db",
+                  fontFamily: "Poppins, sans-serif",
+                }}
               />
             </ListItem>
             <ListItem>
@@ -437,7 +567,10 @@ const RealTimeCollabCard = () => {
               </ListItemIcon>
               <ListItemText
                 primary="Highlighted product photography with clean design."
-                sx={{ color: "#d1d5db" }}
+                sx={{
+                  color: "#d1d5db",
+                  fontFamily: "Poppins, sans-serif",
+                }}
               />
             </ListItem>
             <ListItem>
@@ -446,7 +579,10 @@ const RealTimeCollabCard = () => {
               </ListItemIcon>
               <ListItemText
                 primary="Focused on minimal aesthetics and responsive layouts."
-                sx={{ color: "#d1d5db" }}
+                sx={{
+                  color: "#d1d5db",
+                  fontFamily: "Poppins, sans-serif",
+                }}
               />
             </ListItem>
           </List>

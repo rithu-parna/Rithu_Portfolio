@@ -1,89 +1,3 @@
-// import React from "react";
-// import { Box, Typography, Grid, TextField, Button } from "@mui/material";
-
-// const Contact = () => {
-//   return (
-//     <Box sx={{ p: 4, color: "#fff" }}>
-//       <Typography variant="h4" mb={2}>
-//         Let's Get in Touch!
-//       </Typography>
-
-//       <Grid container spacing={2}>
-//         <Grid item xs={12} sm={12}>
-//           <Typography fontSize={14} mb={1}>
-//             Phone
-//           </Typography>
-//           <Typography fontWeight={500}>+91 77361 41202</Typography>
-//         </Grid>
-//         <Grid item xs={12} sm={12}>
-//           <Typography fontSize={14} mb={1}>
-//             Email
-//           </Typography>
-//           <Typography fontWeight={500}>jlkshmikv@gmail.com</Typography>
-//         </Grid>
-//         <Grid item xs={12}>
-//           <Typography fontSize={14} mb={1}>
-//             Address
-//           </Typography>
-//           <Typography fontWeight={500}>Quilandy, Calicut, Kerala</Typography>
-//         </Grid>
-
-//         <Grid item xs={12} sm={6}>
-//           <TextField
-//             fullWidth
-//             label="Your Name"
-//             variant="outlined"
-//             sx={{ backgroundColor: "#222" }}
-//           />
-//         </Grid>
-//         <Grid item xs={12} sm={6}>
-//           <TextField
-//             fullWidth
-//             label="Your Email"
-//             variant="outlined"
-//             sx={{ backgroundColor: "#222" }}
-//           />
-//         </Grid>
-//         <Grid item xs={12}>
-//           <TextField
-//             fullWidth
-//             label="Your Message"
-//             multiline
-//             rows={4}
-//             variant="outlined"
-//             sx={{ backgroundColor: "#222" }}
-//           />
-//         </Grid>
-
-//         <Grid item xs={12}>
-//           <Button
-//             fullWidth
-//             variant="contained"
-//             sx={{ backgroundColor: "#00ffae" }}
-//           >
-//             Send a Message
-//           </Button>
-//         </Grid>
-//       </Grid>
-
-//       {/* Embedded Map */}
-//       <Box mt={4}>
-//         <iframe
-//           src="https://maps.google.com/maps?q=Koyilandy, Kerala&t=&z=13&ie=UTF8&iwloc=&output=embed"
-//           width="100%"
-//           height="250"
-//           style={{ border: 0 }}
-//           allowFullScreen=""
-//           loading="lazy"
-//           title="Google Map"
-//         ></iframe>
-//       </Box>
-//     </Box>
-//   );
-// };
-
-// export default Contact;
-
 import React from "react";
 import { Box, Typography, LinearProgress, Stack, Paper } from "@mui/material";
 import { styled } from "@mui/material/styles";
@@ -149,7 +63,15 @@ const SkillCard = ({ icon, title, skills, color }) => {
         },
       }}
     >
-      <Typography variant="h6" sx={{ mb: 2, color: "#fff", fontWeight: "600" }}>
+      <Typography
+        variant="h6"
+        sx={{
+          mb: 2,
+          color: "#fff",
+          fontWeight: "600",
+          fontFamily: "Poppins, sans-serif",
+        }}
+      >
         <span style={{ fontSize: "1.5rem", marginRight: 8 }}>{icon}</span>
         {title}
       </Typography>
@@ -157,10 +79,18 @@ const SkillCard = ({ icon, title, skills, color }) => {
         {skills.map((skill, index) => (
           <Box key={index}>
             <Stack direction="row" justifyContent="space-between">
-              <Typography variant="body2" color="#fff">
+              <Typography
+                variant="body2"
+                color="#fff"
+                sx={{ fontFamily: "Poppins, sans-serif" }}
+              >
                 {skill.name}
               </Typography>
-              <Typography variant="body2" color="#ccc">
+              <Typography
+                variant="body2"
+                color="#ccc"
+                sx={{ fontFamily: "Poppins, sans-serif" }}
+              >
                 {skill.value}%
               </Typography>
             </Stack>

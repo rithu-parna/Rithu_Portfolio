@@ -14,7 +14,7 @@ const Footer = () => {
         py: 1,
       }}
     >
-      <Typography fontSize={12}>
+      <Typography fontSize={12} sx={{ fontFamily: "Poppins, sans-serif" }}>
         © {new Date().getFullYear()} Rithuparna | All Rights Reserved
       </Typography>
     </Box>

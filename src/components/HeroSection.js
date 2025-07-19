@@ -1,16 +1,54 @@
 import React, { useMemo } from "react";
-import { Box, Typography, Button, Chip, Stack, keyframes } from "@mui/material";
-// import { motion } from "framer-motion";
-import reactImg from "../assets/images/react.jpeg";
+import { Box, Typography, Button, Stack, keyframes } from "@mui/material";
+import { ReactComponent as React1 } from "../assets/images/atom.svg";
+import { ReactComponent as Redux } from "../assets/images/redux.svg";
+import { ReactComponent as Angular } from "../assets/images/programing.svg";
+import { ReactComponent as TypeScript } from "../assets/images/ts.svg";
+import { ReactComponent as Javascript } from "../assets/images/js.svg";
 
 // import { LinkedIn, Instagram, GitHub, WhatsApp } from "@mui/icons-material";
 
 const techStack = [
-  { img: reactImg, text: "React" },
-  { img: reactImg, text: "Angular" },
-  { img: reactImg, text: "Redux" },
-  { img: reactImg, text: "Javascript" },
-  { img: reactImg, text: "TypeScript" },
+  {
+    img: (
+      <Box sx={{ width: 24, height: 24 }}>
+        <React1 style={{ width: "100%", height: "100%" }} />
+      </Box>
+    ),
+    text: "React",
+  },
+  {
+    img: (
+      <Box sx={{ width: 24, height: 24 }}>
+        <Angular style={{ width: "100%", height: "100%" }} />
+      </Box>
+    ),
+    text: "Angular",
+  },
+  {
+    img: (
+      <Box sx={{ width: 24, height: 24 }}>
+        <Redux style={{ width: "100%", height: "100%" }} />
+      </Box>
+    ),
+    text: "Redux",
+  },
+  {
+    img: (
+      <Box sx={{ width: 20, height: 20 }}>
+        <Javascript style={{ width: "100%", height: "100%" }} />
+      </Box>
+    ),
+    text: "Javascript",
+  },
+  {
+    img: (
+      <Box sx={{ width: 20, height: 20 }}>
+        <TypeScript style={{ width: "100%", height: "100%" }} />
+      </Box>
+    ),
+    text: "TypeScript",
+  },
 ];
 
 const HeroSection = () => {
@@ -48,22 +86,10 @@ const HeroSection = () => {
           color: "white",
         }}
       >
-        {/* Gradient Name */}
-        {/* <Typography
-        variant="h1"
-        sx={{
-          fontSize: { xs: "3rem", md: "6rem" },
-          fontWeight: "bold",
-          background: "linear-gradient(to right, #00ffff, #ff00ff)",
-          WebkitBackgroundClip: "text",
-          WebkitTextFillColor: "transparent",
-        }}
-      >
-        John Doe
-      </Typography> */}
         <Typography
           variant="h1"
           sx={{
+            fontFamily: "Poppins, sans-serif",
             fontSize: { xs: "3rem", md: "6rem" },
             fontWeight: "bold",
             background: "linear-gradient(to right, #00ffff, #ff00ff)",
@@ -100,7 +126,7 @@ const HeroSection = () => {
           }}
         >
           {/* Left Line */}
-          <Box
+          {/* <Box
             sx={{
               flex: 1,
               height: "2px",
@@ -109,7 +135,7 @@ const HeroSection = () => {
               opacity: 0.6,
               width: "68px",
             }}
-          />
+          /> */}
 
           {/* Web Developer Text */}
           <Typography
@@ -119,13 +145,14 @@ const HeroSection = () => {
               mx: 2,
               fontWeight: 500,
               whiteSpace: "nowrap",
+              fontFamily: "Poppins, sans-serif",
             }}
           >
             Front-End Developer
           </Typography>
 
           {/* Right Line */}
-          <Box
+          {/* <Box
             sx={{
               flex: 1,
               height: "2px",
@@ -134,10 +161,13 @@ const HeroSection = () => {
               opacity: 0.6,
               width: "68px",
             }}
-          />
+          /> */}
         </Box>
         {/* Description */}
-        <Typography variant="subtitle1" sx={{ mt: 2, maxWidth: 600 }}>
+        <Typography
+          variant="subtitle1"
+          sx={{ mt: 2, maxWidth: 600, fontFamily: "Poppins, sans-serif" }}
+        >
           Crafting exceptional digital experiences with modern web technologies
         </Typography>
 
@@ -148,28 +178,36 @@ const HeroSection = () => {
           sx={{ mt: 3, flexWrap: "wrap", justifyContent: "center" }}
         >
           {techStack.map((tech, index) => (
-            <Chip
+            <Box
               key={index}
-              label={tech.text}
-              variant="outlined"
-              avatar={
-                <Box
-                  component="img"
-                  src={tech.img}
-                  alt={tech.text}
-                  sx={{
-                    width: 24,
-                    height: 24,
-                    borderRadius: "50%",
-                  }}
-                />
-              }
               sx={{
+                border: "1px solid #444",
+                borderRadius: "20PX",
                 color: "#fff",
+                pl: 1.5,
+                pt: 1,
+                pb: 1,
+                pr: 1.5,
+                display: "flex",
+                alignItems: "center",
+                width: "fit-content",
+                justifyContent: "center",
+                fontFamily: "Poppins, sans-serif",
                 borderColor: "#444",
                 backgroundColor: "#1c1c1c",
               }}
-            />
+            >
+              <Box mr={1}>{tech.img}</Box>
+              <Box
+                sx={{
+                  fontSize: "14px",
+                  borderRadius: "50%",
+                  fontFamily: "Poppins, sans-serif",
+                }}
+              >
+                {tech.text}
+              </Box>
+            </Box>
           ))}
         </Stack>
 
@@ -189,6 +227,7 @@ const HeroSection = () => {
               boxShadow: "0 0 15px #ff00ff",
               textTransform: "none",
               fontSize: "1rem",
+              fontFamily: "Poppins, sans-serif",
             }}
           >
             View My Work →
@@ -203,6 +242,7 @@ const HeroSection = () => {
               borderRadius: 5,
               textTransform: "none",
               fontSize: "1rem",
+              fontFamily: "Poppins, sans-serif",
             }}
           >
             Get in Touch
@@ -219,6 +259,7 @@ const HeroSection = () => {
             display: "flex",
             flexDirection: "column",
             alignItems: "center",
+            fontFamily: "Poppins, sans-serif",
           }}
         >
           Scroll to explore
