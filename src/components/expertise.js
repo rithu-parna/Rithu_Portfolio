@@ -66,7 +66,7 @@ const RealTimeCollabCard = () => {
             Designed a CRM system from scratch for supply chain management.{" "}
           </Typography>
 
-          <Typography
+          {/* <Typography
             sx={{
               mt: 3,
               fontWeight: 600,
@@ -134,7 +134,7 @@ const RealTimeCollabCard = () => {
                 Seo
               </Typography>
             </Box>
-          </Box>
+          </Box> */}
 
           <Typography
             sx={{
@@ -268,7 +268,7 @@ const RealTimeCollabCard = () => {
             bills.
           </Typography>
 
-          <Typography
+          {/* <Typography
             sx={{ mt: 3, fontWeight: 600, fontFamily: "Poppins, sans-serif" }}
           >
             Performance Metrics
@@ -336,7 +336,7 @@ const RealTimeCollabCard = () => {
                 Seo
               </Typography>
             </Box>
-          </Box>
+          </Box> */}
 
           <Typography
             sx={{ mt: 4, fontWeight: 600, fontFamily: "Poppins, sans-serif" }}
@@ -467,9 +467,9 @@ const RealTimeCollabCard = () => {
             sx={{ mt: 1, color: "#9ca3af", fontFamily: "Poppins, sans-serif" }}
           >
             Complete design of a modern showcase website for a luxury jewelry
-            brand.{" "}
+            brand.
           </Typography>
-
+{/* 
           <Typography
             sx={{ mt: 3, fontWeight: 600, fontFamily: "Poppins, sans-serif" }}
           >
@@ -530,7 +530,7 @@ const RealTimeCollabCard = () => {
                 Seo
               </Typography>
             </Box>
-          </Box>
+          </Box> */}
 
           <Typography sx={{ mt: 4, fontWeight: 600 }}>
             Technical Implementation

@@ -188,6 +188,8 @@ const HeroSection = () => {
                 pt: 1,
                 pb: 1,
                 pr: 1.5,
+                mt: 5,
+                mb: 2,
                 display: "flex",
                 alignItems: "center",
                 width: "fit-content",
@@ -266,22 +268,6 @@ const HeroSection = () => {
           <span style={{ fontSize: "2rem" }}>↓</span>
         </Typography>
 
-        {/* {emojis.map((item, index) => (
-              <Box
-                key={index}
-                sx={{
-                  position: "absolute",
-                  top: item.top,
-                  left: item.left,
-                  fontSize: "1.5rem",
-                  opacity: 0.1,
-                  userSelect: "none",
-                  pointerEvents: "none",
-                }}
-              >
-                {item.emoji}
-              </Box>
-            ))} */}
         {emojis.map((item, index) => (
           <Box
             key={index}
