@@ -1,19 +1,30 @@
 {
   "files": {
-    "main.css": "/Rithu_Portfolio/static/css/main.a3cbe15f.css",
-    "main.js": "/Rithu_Portfolio/static/js/main.c54edaff.js",
+    "main.css": "/Rithu_Portfolio/static/css/main.aea802be.css",
+    "main.js": "/Rithu_Portfolio/static/js/main.ef390c4e.js",
     "static/js/453.ed3810f9.chunk.js": "/Rithu_Portfolio/static/js/453.ed3810f9.chunk.js",
     "static/media/bglogistic.jpg": "/Rithu_Portfolio/static/media/bglogistic.9f647a82d4057914e7de.jpg",
     "static/media/jwellery.jpg": "/Rithu_Portfolio/static/media/jwellery.db16729ed131dc225340.jpg",
     "static/media/smarterhome.jpg": "/Rithu_Portfolio/static/media/smarterhome.ba97f1a5645ac02bbf37.jpg",
-    "static/media/react.jpeg": "/Rithu_Portfolio/static/media/react.3eb1847241afec35a1c6.jpeg",
+    "static/media/responsive.svg": "/Rithu_Portfolio/static/media/responsive.d341302db192365254a39416debac609.svg",
+    "static/media/binary-code.svg": "/Rithu_Portfolio/static/media/binary-code.fc092b5e64246961c073146a33a6ce44.svg",
+    "static/media/atom.svg": "/Rithu_Portfolio/static/media/atom.eb551aae1b3d9df497f1eb1d4c97747a.svg",
+    "static/media/puzzle.svg": "/Rithu_Portfolio/static/media/puzzle.a227466721689b86a404f0ab16b57958.svg",
+    "static/media/easy.svg": "/Rithu_Portfolio/static/media/easy.81450a450e40cac2fb8d002f0810b0d0.svg",
+    "static/media/redux.svg": "/Rithu_Portfolio/static/media/redux.0e4fb1c819ac4c060c92343147d4ccf7.svg",
+    "static/media/ts.svg": "/Rithu_Portfolio/static/media/ts.d2b543a4e474a930f31544f4471ec4c4.svg",
+    "static/media/programing.svg": "/Rithu_Portfolio/static/media/programing.ca8baf89c7e130c2e80ba56e12816db9.svg",
+    "static/media/diamond.svg": "/Rithu_Portfolio/static/media/diamond.a5899f09a5bd4a86df8ff7ba0fdef117.svg",
+    "static/media/devops.svg": "/Rithu_Portfolio/static/media/devops.2ba9b1fdb01365d3fdcf2ad61882deaf.svg",
+    "static/media/js.svg": "/Rithu_Portfolio/static/media/js.b92cfd9b570736e1a3f0b85ef71365f3.svg",
+    "static/media/thunder.svg": "/Rithu_Portfolio/static/media/thunder.7dba75573e38baf48471836874d99b29.svg",
     "index.html": "/Rithu_Portfolio/index.html",
-    "main.a3cbe15f.css.map": "/Rithu_Portfolio/static/css/main.a3cbe15f.css.map",
-    "main.c54edaff.js.map": "/Rithu_Portfolio/static/js/main.c54edaff.js.map",
+    "main.aea802be.css.map": "/Rithu_Portfolio/static/css/main.aea802be.css.map",
+    "main.ef390c4e.js.map": "/Rithu_Portfolio/static/js/main.ef390c4e.js.map",
     "453.ed3810f9.chunk.js.map": "/Rithu_Portfolio/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a3cbe15f.css",
-    "static/js/main.c54edaff.js"
+    "static/css/main.aea802be.css",
+    "static/js/main.ef390c4e.js"
   ]
 }
