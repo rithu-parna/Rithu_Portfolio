@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Rithu_Portfolio/static/css/main.aea802be.css",
-    "main.js": "/Rithu_Portfolio/static/js/main.ef390c4e.js",
+    "main.js": "/Rithu_Portfolio/static/js/main.2d6f2ff5.js",
     "static/js/453.ed3810f9.chunk.js": "/Rithu_Portfolio/static/js/453.ed3810f9.chunk.js",
     "static/media/bglogistic.jpg": "/Rithu_Portfolio/static/media/bglogistic.9f647a82d4057914e7de.jpg",
     "static/media/jwellery.jpg": "/Rithu_Portfolio/static/media/jwellery.db16729ed131dc225340.jpg",
@@ -20,11 +20,11 @@
     "static/media/thunder.svg": "/Rithu_Portfolio/static/media/thunder.7dba75573e38baf48471836874d99b29.svg",
     "index.html": "/Rithu_Portfolio/index.html",
     "main.aea802be.css.map": "/Rithu_Portfolio/static/css/main.aea802be.css.map",
-    "main.ef390c4e.js.map": "/Rithu_Portfolio/static/js/main.ef390c4e.js.map",
+    "main.2d6f2ff5.js.map": "/Rithu_Portfolio/static/js/main.2d6f2ff5.js.map",
     "453.ed3810f9.chunk.js.map": "/Rithu_Portfolio/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.aea802be.css",
-    "static/js/main.ef390c4e.js"
+    "static/js/main.2d6f2ff5.js"
   ]
 }
