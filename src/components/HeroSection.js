@@ -223,12 +223,18 @@ const HeroSection = () => {
             sx={{
               background: "linear-gradient(to right, #833ab4, #fd1d1d)",
               color: "#fff",
-              px: 4,
+              px: { xs: 3, sm: 4, md: 4, lg: 4, xl: 4 },
               py: 1.5,
               borderRadius: 5,
               boxShadow: "0 0 15px #ff00ff",
               textTransform: "none",
-              fontSize: "1rem",
+              fontSize: {
+                xs: "12px",
+                sm: "1rem",
+                md: "1rem",
+                lg: "1rem",
+                xl: "1rem",
+              },
               fontFamily: "Poppins, sans-serif",
             }}
           >
@@ -239,11 +245,17 @@ const HeroSection = () => {
             sx={{
               backgroundColor: "#222",
               color: "#fff",
-              px: 4,
+              px: { xs: 3, sm: 4, md: 4, lg: 4, xl: 4 },
               py: 1.5,
               borderRadius: 5,
               textTransform: "none",
-              fontSize: "1rem",
+              fontSize: {
+                xs: "12px",
+                sm: "1rem",
+                md: "1rem",
+                lg: "1rem",
+                xl: "1rem",
+              },
               fontFamily: "Poppins, sans-serif",
             }}
           >

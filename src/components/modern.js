@@ -100,7 +100,13 @@ const ModernWebCapabilities = () => {
             fontWeight: 600,
             mt: 2,
             mb: 1,
-            fontSize: "30px",
+            fontSize: {
+              xs: "26px",
+              sm: "30px",
+              md: "30px",
+              lg: "30px",
+              xl: "30px",
+            },
             fontFamily: "Poppins, sans-serif",
           }}
         >
@@ -110,7 +116,31 @@ const ModernWebCapabilities = () => {
 
       <Grid container spacing={3} sx={{ mt: 0, mb: 5 }}>
         {capabilityData.map((cap, idx) => (
-          <Grid item xs={12} sm={6} md={4} key={idx} mt={3}>
+          <Grid
+            item
+            xs={12}
+            sm={6}
+            md={4}
+            key={idx}
+            mt={3}
+            sx={{
+              // width: {
+              //   sm: "100%",
+              //   xs: "100%",
+              // },
+              display: {
+                sm: "flex",
+                xs: "flex",
+              },
+              justifyContent: {
+                xl: "start",
+                lg: "start",
+                md: "start",
+                sm: "center",
+                xs: "center",
+              },
+            }}
+          >
             <Paper
               elevation={2}
               sx={{
@@ -118,7 +148,8 @@ const ModernWebCapabilities = () => {
                 p: 3,
                 pb: 0,
                 borderRadius: 2,
-                width: { xl: "320px", lg: "320px", md: 300, sm: 360, xs: 320 },
+
+                width: { xl: "320px", lg: "320px", md: 300, sm: 320, xs: 320 },
                 height: "100%",
                 transition: "transform 0.3s ease",
 
