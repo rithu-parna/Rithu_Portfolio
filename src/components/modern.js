@@ -118,9 +118,7 @@ const ModernWebCapabilities = () => {
         {capabilityData.map((cap, idx) => (
           <Grid
             item
-            xs={12}
-            sm={6}
-            md={4}
+            size={{ xs: 12, md: 6, sm: 12, lg: 4, xl: 4 }}
             key={idx}
             mt={3}
             sx={{
@@ -149,7 +147,7 @@ const ModernWebCapabilities = () => {
                 pb: 0,
                 borderRadius: 2,
 
-                width: { xl: "320px", lg: "320px", md: 300, sm: 320, xs: 320 },
+                width: "100% ",
                 height: "100%",
                 transition: "transform 0.3s ease",
 

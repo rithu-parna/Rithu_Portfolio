@@ -1,5 +1,12 @@
 import React from "react";
-import { Box, Typography, LinearProgress, Stack, Paper } from "@mui/material";
+import {
+  Box,
+  Typography,
+  LinearProgress,
+  Stack,
+  Paper,
+  Grid,
+} from "@mui/material";
 import { styled } from "@mui/material/styles";
 
 const skillsData = [
@@ -120,17 +127,17 @@ const TechnicalExpertise = () => {
       <Typography variant="h4" sx={{ mb: 4, fontWeight: "600" }}>
         Technical Expertise
       </Typography>
-      <Stack
-        direction={{ xs: "column", md: "row" }}
-        spacing={4}
-        justifyContent="center"
-        alignItems="center"
-        flexWrap="wrap"
-      >
+      <Grid container spacing={2} justifyContent={"center"} display={"flex"}>
         {skillsData.map((category, index) => (
-          <SkillCard key={index} {...category} />
+          <Grid
+            size={{ xs: 12, md: 6, sm: 12, lg: 4, xl: 3 }}
+            justifyContent={"center"}
+            display={"flex"}
+          >
+            <SkillCard key={index} {...category} />
+          </Grid>
         ))}
-      </Stack>
+      </Grid>
     </Box>
   );
 };
