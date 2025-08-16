@@ -642,7 +642,9 @@ import {
 } from "@mui/material";
 import ArrowRightIcon from "@mui/icons-material/ArrowRight";
 import { motion } from "framer-motion";
-import LogisticImg from "../assets/images/bglogistic.jpg";
+// import LogisticImg from "../assets/images/bglogistic.jpg";
+import LogisticImg from "../assets/images/logistic.jpg";
+
 import SmarterHomes from "../assets/images/smarterhome.jpg";
 import Jwellery from "../assets/images/jwellery.jpg";
 
@@ -723,8 +725,8 @@ const AnimatedCard = ({
         ml: { xs: 4, sm: 4, md: 6, lg: 10, xl: 10 },
         mr: { xs: 4, sm: 4, md: 6, lg: 10, xl: 10 },
         pt: { xs: 7, sm: 7, md: 6, lg: 0, xl: 0 },
-        pl: 4,
-        pr: { xs: 4, sm: 4, md: 4, lg: 0, xl: 0 },
+        // pl: { xs: 4, sm: 4, md: 4, lg: 0, xl: 0 },
+        pr: { xs: 0, sm: 0, md: 0, lg: 0, xl: 0 },
         display: "flex",
         flexDirection: {
           xs: "column",
@@ -743,16 +745,19 @@ const AnimatedCard = ({
         <Typography
           variant="h5"
           sx={{ fontWeight: 600, fontFamily: "Poppins, sans-serif" }}
+          ml={4}
         >
           {title}
         </Typography>
         <Typography
+          ml={4}
           sx={{ mt: 1, color: "#9ca3af", fontFamily: "Poppins, sans-serif" }}
         >
           {description}
         </Typography>
 
         <Typography
+          ml={4}
           sx={{
             mt: 4,
             fontWeight: 600,
@@ -762,7 +767,7 @@ const AnimatedCard = ({
           Technical Implementation
         </Typography>
 
-        <List dense sx={{ color: "#aaffaa", mb: { xs: 4, md: 0 } }}>
+        <List ml={6} dense sx={{ color: "#aaffaa", mb: { xs: 4, md: 0 } }}>
           {implementation.map((item, index) => (
             <ListItem key={index}>
               <ListItemIcon>
