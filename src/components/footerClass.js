@@ -151,7 +151,7 @@ import { motion } from "framer-motion";
 const HeroSection = () => {
   const ResumeDownload = () => {
     const link = document.createElement("a");
-    link.href = process.env.PUBLIC_URL + "/rithuparna_resume.pdf";
+    link.href = process.env.PUBLIC_URL + "/rithuparnaResume.pdf";
     link.download = "Frontend Developer Rithuparna_AC.pdf";
     document.body.appendChild(link);
     link.click();
